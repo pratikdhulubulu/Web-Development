@@ -1,0 +1,77 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body{
+      background-color: #d3d0d0e6;
+}
+
+.card{
+      background-color: hwb(200 96% 3%);
+      width: 25vw;
+      margin: 50px auto ;
+      padding: 10px;
+      border: 1px solid rgb(106, 163, 170);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 5px 5px 15px rgba(20, 42, 45, 0.5);
+}
+.card-image{
+      background-color: hwb(0 96% 2%);
+      height: 225px;
+      border: 1px solid rgb(113, 207, 247);
+      border-radius: 15px;
+}
+.card-image img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+}     
+.tags{
+      margin: 5px;
+      padding: 5px;
+}
+.tags span{
+      display: inline-block;
+      width: auto;
+      height: 15px;
+      border: 1px solid rgb(185, 185, 179);
+      border-radius: 10px;
+      margin: 5px;
+      padding: 3px 10px;
+      font-family: 'monospace, Courier New', Courier;
+      font-size: 16px;
+}
+
+h2{
+      margin: 5px;
+      padding: 5px;
+      font-family: 'monospace, Courier New', Courier;
+}
+p{
+      height: 125px;
+      margin: 5px;
+      padding: 5px;
+      font-family: 'monospace, Courier New', Courier;
+      font-size: 14px;
+      overflow: auto;
+}
+.button{
+      height: 25px;
+      margin: 10px;
+      text-align: center;
+      
+}
+.button button{
+      width: auto;
+      height: 25px;
+      border: 0px;
+      border-radius: 10px;
+      background-color: rgb(180, 222, 229);
+      padding: 3px 10px;
+      font-family: 'monospace, Courier New', Courier;
+      font-size: 12px;
+
+}

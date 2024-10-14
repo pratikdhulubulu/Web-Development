@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DOM DEV TOOL</title>
+
+      <style>
+            .box {
+                  height: 50px;
+                  width: 100px;
+                  margin: 10px;
+                  border: 2px solid black;
+                  padding: 10px;
+            }
+            .red{
+                  background-color: red;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="container">
+            <div class="box" style="display: flex;" data-att="CREATOR" data-anyone="CONCEPT">box1</div>
+            <div class="box">box2</div>
+            <div class="box">box3</div>
+            <div class="box">box4</div>
+            <div class="box">box5</div>
+      </div>
+
+      <script>
+            // let div = document.createElement("div");
+            // div.innerHTML = "Content of div"
+            // div.setAttribute("class", "new-box");
+            // document.querySelector(".container").before(div);
+
+            // let cont = document.querySelector(".container");
+            // cont.insertAdjacentHTML("beforebegin","<div>This is new div</div> ElementsString");
+            // document.querySelector(".box").remove()
+
+            // document.querySelector(".container").classList.add("red");
+            document.querySelector(".box").classList.remove("red");
+            document.querySelector(".box").classList.toggle("red");
+
+
+
+      </script>
+</body>
+
+</html>

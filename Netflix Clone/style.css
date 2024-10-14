@@ -1,0 +1,156 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      background-color: black;
+}
+
+.main{
+      background-image: url("images/NetflixBackground.jpg");
+      height: 100vh;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: max(1200px, 100vw);
+}
+
+nav{
+      max-width: 78vw;
+      height: 15vh;
+      margin: auto;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; 
+      
+}
+
+nav img{
+      color: red;
+      width: 145px;
+      position: relative;
+      z-index: 10; 
+}
+
+nav button{
+      position: relative;
+      z-index: 10; 
+}
+
+nav .side{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+}
+
+.box{
+      height: 100vh;
+      width: 100%;
+      opacity: 0.66;
+      background-color: black;
+      position: absolute;
+      top: 0px;
+      text-align: center;
+}
+
+.info{
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif';
+      position: relative;
+      gap: 20px;
+      padding: 30px;
+}
+
+.info> :first-child{
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 70px;
+      text-align: center;
+}
+.info> :nth-child(2){
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+}
+.info> :last-child{
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+}
+
+.last-input{
+      display: flex;
+      background-color: red;
+      flex-wrap: wrap;
+}
+.btn{
+      background-color: red;
+      color: white;
+      font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif';
+      font-weight: 500;
+      border-style: none;
+      border-radius: 5px;
+}
+
+.language{
+      background-color: transparent;
+      border:1px solid gray;
+      padding: 5px 15px 3px 15px;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 5px;
+}
+
+.language :nth-child(1){
+      width: 20px;      
+}
+      
+.sign-in{
+      padding: 5px 15px 5px 15px;
+      font-size: 14px;
+}
+
+.last-input{
+      background-color: transparent;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      align-items: center;
+      gap: 10px;
+}
+
+.last-input input{
+      width: 300px;
+      height: 40px;
+      background-color: transparent;
+      border: 1px solid gray;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 5px;
+}
+
+.last-input input::placeholder{
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+}
+
+.last-input .getStarted{
+     padding: 5px 15px 5px 15px;
+     font-size: 24px;
+}

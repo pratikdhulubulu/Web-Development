@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fauty Calculator</title>
+</head>
+
+<body>
+
+      <script>
+            let random = Math.random();
+
+            let a = prompt("Enter first number: ");
+            let o = prompt("Enter opration: ");
+            let b = prompt("Enter second number: ");
+
+            let obj = { "+": "-", "*": "+", "-": "/", "/": "**" }
+            if (random < 0.5) {
+                  o = obj[o];
+                  alert(`The result is ${eval(`${a} ${o} ${b}`)}`);
+            }
+            else {
+                  alert(`The result is ${eval(`${a} ${o} ${b}`)}`);
+            }
+
+      </script>
+</body>
+
+</html>
